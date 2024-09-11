@@ -31,6 +31,8 @@ private static void beforeInsertNetRevenueFieldCheck(List<CAMPX__Event__c> newRe
         }
 
     }
+
+
 }
 
 
@@ -59,5 +61,12 @@ public static void callingPrivateMethodsBeforeUpdate(List<CAMPX__Event__c> edite
     CAMPX_Event_BfiTriggerHandler.beforeStatusUpdateCaptureDateTime(editedRecords, OldversionOfRecords);
     CAMPX_Event_BfiTriggerHandler.beforeInsertNetRevenueFieldCheck(editedRecords);
 }
+
+
+
+
+
+
+
 
 }
